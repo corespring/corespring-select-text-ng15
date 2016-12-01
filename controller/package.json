@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-select-text": "PieLabs/corespring-legacy-select-text"
+    "corespring-legacy-select-text": "corespring/corespring-legacy-select-text"
   }
 }
