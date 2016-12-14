@@ -1,11 +1,14 @@
 {
-  "pies": [
+  "langs": [
+    "en-US"
+  ],
+  "elements": {
+    "corespring-select-text-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-select-text-ng15",
-        "version": "1.0.0"
-      },
+      "element": "corespring-select-text-ng15",
       "model": {
         "choices": [],
         "config": {
