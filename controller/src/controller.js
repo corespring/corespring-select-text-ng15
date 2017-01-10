@@ -14,7 +14,7 @@ let createOutcome = (question, session) => {
 }
 
 export function outcome(question, session, env) {
-  const legacyOutcome = createOutcome(question, session)
+  const legacyOutcome = createOutcome(question, session);
   const raw = legacyOutcome.score;
   const min = 0;
   const max = 1;
@@ -24,11 +24,12 @@ export function outcome(question, session, env) {
   const score = {
     scaled, raw, min, max
   };
+  const feedback = legacyOutcome.feedback;
   const completed = true;
   const duration = "PT1M"; //one minute, see https://en.wikipedia.org/wiki/ISO_8601#Durations
   const extensions = {}; //optional, see docs in the link above
   const outcome = {
-    id, score, completed, duration, extensions
+    id, score, completed, feedback, duration, extensions
   };
 
   return Promise.resolve(outcome);
