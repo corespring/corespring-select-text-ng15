@@ -14,7 +14,7 @@
         "config": {
           "selectionUnit": "sentence",
           "maxSelections": 1,
-          "passage": "<span class=\"cs-token\">Rachel cut out 8 stars in 6 minutes.</span> <span class=\"cs-token\"> Lovelle cut out 6 stars in 4 minutes.</span> <span class=\"cs-token\">Rachel cut out 4 more stars than Lovelle.</span> <span class=\"cs-token\">Lovelle and Rachel cut the same number of stars in 6 minutes.</span> ",
+          "passage": "<span class=\"cs-token\">1) Rachel cut out 8 stars in 6 minutes.</span> <span class=\"cs-token\">2) Lovelle cut out 6 stars in 4 minutes.</span> <span class=\"cs-token\">3) Rachel cut out 4 more stars than Lovelle.</span> <span class=\"cs-token\">4) Lovelle and Rachel cut the same number of stars in 6 minutes.</span> ",
           "availability": "all",
           "label": ""
         }
